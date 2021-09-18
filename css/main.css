@@ -1,18 +1,104 @@
+body{
+    background:var(--base);
+}
+
+:root{
+    --primario:#ffffff;
+    --segundario:#0D12D4;
+    --base:#dddddd;
+    --contraste:#22D6AE;
+    --otro:#0FF730;
+}
+
 #inicio_de_sesion
 {
-    background: blue;
-    color: aliceblue;
+    background:var(--segundario);
+    color: var(--contraste);
+    font-size: 2em;
+    padding: 1em;
+    border-radius: 10px;
+    font-family: 'Archivo', sans-serif;
 }
-.campos_de_llenado
-{
-    background: rgba(0, 78, 70, 0.158);
-    color: aliceblue;
+
+.label_index{
+    font-family: 'Archivo', sans-serif;
 }
-#recuadro
+
+.campos-de-llenado{
+    border-radius: 30px;
+    border: solid 1px var(--contraste);
+    padding: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+/*modificaciones en la caja*/
+fieldset
 {
+    background: var(--primario);
+    width: 40%;
+    border: solid 2px var(--contraste);
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+}
+
+legend{
+    background: silver;
+    color: rgb(92, 92, 92);
+    font-size: 1.5em;
+    font-weight: 400;
+    font-family: 'Azeret Mono', monospace;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.link-botones-index{
+    background: #ffffff;
+    text-decoration: none;
+}
+
+.botones-index{
+    background: #ffffff;
+    font-family: 'Archivo', sans-serif;
+    border-radius: 5px;
+    border: solid 2px var(--contraste);
+    padding: 1%;
+    padding-right: 3%;
+    padding-left: 3%;
+}
+.botones-index:hover{
+    background: var(--segundario);
+    color: #dddddd;
+}
+
+.link-botones-index:hover{
+    background: var(--segundario);
+    color: #dddddd;
+}
+
+.nombres{
+    color: rgb(39, 39, 39);
+}
+/*Modificaciones del boton de registro*/
+button{
+    background: rgb(65, 65, 65);
+    padding-left: 0.7em;
+    padding-right: 0.7em;
+}
+button:hover{
     background: slategrey;
 }
-.links
-{
-    background: white;
+#link-registro{
+    color: rgb(150, 150, 150);
+}
+#link-registro:hover{
+    color: antiquewhite;
+}
+/*modificaciones del titulo*/
+#titulo{
+    font-size: 2.7em;
+    color: darkgray;
+    text-align: center;
 }

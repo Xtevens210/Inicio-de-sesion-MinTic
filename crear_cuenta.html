@@ -4,28 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@500&display=swap" rel="stylesheet">
     <title>Registro</title>
 </head>
 <body>
-    <h3>Crear cuenta</h3>
+    <h3 id="titulo">Crear cuenta</h3>
     <fieldset>
         <legend>Registro de usuario</legend>
         <form action="">
-            <label>Correo electronico
+            <label class="nombres">Correo electronico
                 <input type="text">
             </label><br><br>
-            <label>Nombre de usuario
+            <label class="nombres">Nombre de usuario
                 <input type="text">
-            </label><br><br>
-            <label>Contraseña
+            </label ><br><br>
+            <label class="nombres">Contraseña
                 <input type="password">
             </label><br><br>
-            <label>Confirmacion de contraseña
+            <label class="nombres">Confirmacion de contraseña
                 <input type="password">
             </label>
         </form><br>
-        <a href="index.html">Registrarse</a>
-    </fieldset>
-    
+        <button><a id="link-registro" href="index.html">Registrarse</a></button>
+    </fieldset>    
 </body>
 </html>
