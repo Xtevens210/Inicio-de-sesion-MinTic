@@ -102,3 +102,88 @@ button:hover{
     color: darkgray;
     text-align: center;
 }
+
+/*codigo pagina web principal*/
+
+#body-perfil{
+    background: #003b46;
+}
+
+#cabezote{
+    text-align: center;
+}
+
+#posicion-logo{
+    color: #dddddd;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+#barra-navegacion-perfil{
+    background: #007488;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 50px;
+}
+
+.opciones-navegacion{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 3px;
+}
+
+.cerrar-sesion{
+    display:flex;
+    margin-left: auto;
+    padding-right: 10px;
+}
+
+.opciones-navegacion:hover{
+    background-color: #003b46;
+}
+
+.link-navegacion{
+    color: #dddddd;
+    text-decoration: none;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+#div-seccion{
+    background: #66a5ad;
+    width: 1200px;
+    height: 500px;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+#articulo1{
+    background: #9999b1;
+    height:455px;
+    width:710px;
+    margin: 20px 20px 20px 20px;
+    position: absolute;
+    border-radius: 5px;
+}
+
+p{
+    color: #131313;
+    padding: 20px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 18px;
+}
+
+.aside{
+    width: 400px;
+    height: 300px;
+    margin: 20px 20px 20px 20px;
+    position: absolute;
+    right: 60px;
+}
+
+.imagen{
+    width: 380px;
+    position: absolute;
+    background: #9999b1;
+    padding: 7px 7px 7px 7px;
+    border-radius: 5px;
+}
