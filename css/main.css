@@ -161,13 +161,18 @@
             margin: 5px 5px 5px 5px;
         }
 
+        .aside1{
+            height: 600px;
+        }
+
         .imagen{
             width: 90%;
             background: #9999b1;
             padding: 4px;
+            border-radius: 10px;
+            display: block;
             margin: auto;
-            margin-top: 10px;
-            text-align: center;
+            margin-top: 35px;
         }
     }
 
@@ -362,7 +367,7 @@
             font-size: 18px;
         }
 
-        .aside{
+        .aside1{
             width: 400px;
             height: 300px;
             margin: 20px 20px 20px 20px;
