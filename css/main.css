@@ -176,21 +176,15 @@
             font-size: 18px;
         }
 
-        .aside{
-            width: 400px;
-            height: 300px;
-            margin: 20px 20px 20px 20px;
-            position: absolute;
-            right: 60px;
-        }
-
         .imagen{
-            width: 380px;
+            width: 90%;
             position: absolute;
+            top: 940px;
+            margin: auto;
             background: #9999b1;
-            padding: 7px 7px 7px 7px;
-            border-radius: 5px;
-            display: none;
+            padding: 10px;
+            border-radius: 10px;
+            text-align: center;
         }
     }
 
